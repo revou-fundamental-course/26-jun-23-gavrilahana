@@ -1,0 +1,320 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #0e1113;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-bottom: 5px solid #0b99db;
+}
+
+.navlogo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.navlogo img{
+    border-radius: 50%;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.navmenu{
+    margin-right: 50px;
+    border: 3px solid #f8f8f4;
+    border-radius: 10px;
+    display: flex;
+}
+
+.navmenu a{
+    padding: 15px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navborder{
+    border-right: 3px solid #f8f8f3;
+}
+
+.pagetitle{
+    margin: 0 250px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pagetitle h1{
+    margin: 0;
+    color: #0e1113;
+}
+
+.pagetitle h3{
+    color: grey;
+}
+
+.contactus{
+    padding: 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.left{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.left img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.userReview{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 0 30px;
+}
+
+.userReview p{
+    margin: 0;
+    margin-top: 10px;
+    color: grey;
+}
+
+.users{
+    display: flex;
+    align-items: center;
+}
+
+.users img{
+    border-radius: 50%;
+    background-color: rgba(156, 154, 154, 0.444);
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
+
+#username{
+    color: #0e1113;
+}
+
+.userinfo{
+    margin-left: 10px;
+}
+
+.userinfo p{
+    color: grey;
+    margin: 0;
+}
+
+.line{
+    margin-top: 5px;
+    align-self: center;
+    width: 100px;
+    border: 1px solid rgba(156, 154, 154, 0.444);
+    border-radius: 3px;
+}
+
+.explanation{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.explanation p{
+    padding-right: 50px;
+    text-align: left;
+    color: grey;
+}
+
+.exlist{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.liex{
+    display: flex;
+    align-items: center;
+}
+
+
+.liex p{
+    margin-left: 20px;
+}
+.linum{
+    text-align: center;
+    background-color: rgba(156, 154, 154, 0.444);
+    color: #0e1113;
+    padding: 14px 20px;
+    border-radius: 50%;
+}
+
+.right{
+    border-radius: 10px;
+    padding: 50px 40px;
+    background-color: rgba(156, 154, 154, 0.444);
+    flex-basis: 40%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.formtitle h3{
+   margin: 0;
+}
+
+.formtitle p{
+    margin-bottom: 0;
+    padding-right: 100px;
+    color: grey;
+}
+
+.forminput{
+    display: flex;
+    flex-direction: column;
+}
+
+.forminput input,select{
+    padding: 10px 5px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.forminput button{
+    color: white;
+    background-color: #1D90F3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ourpackage{
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px 0;
+    background-color: rgba(156, 154, 154, 0.444);
+}
+
+.packages{
+    display: flex;
+    flex-direction: column;
+    margin: 0 250px;
+    margin-bottom: 50px;
+}
+
+.pac{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pack{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.packlog{
+    display: flex;
+    flex-basis: 20%;
+    padding-left: 7px;   
+}
+
+.packlog img{
+    justify-self: center;
+    width: 80%;
+    background-color: rgba(156, 154, 154, 0.444);
+    border-radius: 50%;
+}
+
+.packtext{
+    flex-basis: 80%;
+}
+
+.packtext h4{
+    margin-top: 10px;
+}
+
+.packtext p{
+    color: grey;
+}
+
+.longline{
+    border: 1px solid rgba(156, 154, 154, 0.444);
+}
+
+.closingaction{
+    margin: 50px 0;
+    text-align: center;
+    padding: 0 250px;
+}
+
+.closingaction h1{
+    margin: 0;
+    color: #0e1113;
+}
+
+.closingaction p{
+    padding: 10px 150px;
+    color: grey;
+}
+
+.closingaction button{
+    width: 40%;
+    color: white;
+    background-color: #1D90F3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 0 250px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.foot{
+    display: flex;
+    gap: 5px;
+}
+
+.foot p,a{
+    margin: 0;
+    color: grey;
+    text-decoration: none;
+}
